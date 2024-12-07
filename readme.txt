@@ -1,0 +1,1 @@
+1. django-cors-headers : To fix cross origin request issue

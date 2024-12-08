@@ -1,10 +1,10 @@
 asgiref
 Django
-django-cors-headers
+django-cors-headers #To fix cross origin request issue
 djangorestframework
-djangorestframework-simplejwt
+djangorestframework-simplejwt #Handle JWt authentication
 PyJWT
 pytz
 sqlparse
-psycopg2-binary
+psycopg2-binary #Postgres Database
 python-dotenv

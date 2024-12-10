@@ -13,4 +13,6 @@ urlpatterns = [
     path("api/token/refresh/", TokenRefreshView.as_view(), name="refresh"),
     #importing prebuild rest_framework urls
     path("api-auth/", include("rest_framework.urls")),
+    #including app/urls
+    path("api/", include("api.urls")),
 ]
